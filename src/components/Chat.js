@@ -13,13 +13,7 @@ import { useState } from "react";
 
 export default function Chat(props) {
   const [typing, setTyping] = useState(false);
-  const [messages, setMessages] = useState([
-    {
-      message: "Hello! How are you ?",
-      sender: "Groq",
-      direction: "incoming",
-    },
-  ]);
+  const [messages, setMessages] = useState([]);
 
   //Handle send and give reply
   const handleSend = async (mess) => {
