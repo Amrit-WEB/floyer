@@ -1,7 +1,6 @@
 {
   "name": "floyer",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html"
@@ -23,9 +22,10 @@
     "vm-browserify": "^1.1.2"
   },
   "dependencies": {
+    "@chatscope/chat-ui-kit-styles": "^2.0.3",
+    "@chatscope/chat-ui-kit-react": "^2.0.3",
     "@ant-design/charts": "^2.2.1",
     "@ant-design/icons": "^5.4.0",
-    "@chatscope/chat-ui-kit-react": "^2.0.3",
     "antd": "^5.20.6",
     "dotenv": "^16.4.5",
     "groq-sdk": "^0.7.0",
